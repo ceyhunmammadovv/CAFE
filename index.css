@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+.header-container {
+  height: 100vh;
+  background-image: url("https://preview.colorlib.com/theme/coffee/img/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header ul li,
+ul li a {
+  color: white;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin: 0 10px;
+}
+header ul:nth-child(2) {
+  justify-content: flex-end;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.hero {
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.hero-text {
+  width: 400px;
+}
+.hero-text h1 {
+  font-size: 45px;
+  margin: 10px 0;
+}
+.hero-text button {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 25px;
+  transition: 0.4s;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.hero-text button:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.telecast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tele-img,
+.tele-text {
+  width: 45%;
+}
+.tele-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.tele-text p {
+  margin: 10px 0;
+}
+.menu {
+  margin-top: 60px;
+}
+.menu-heading {
+  text-align: center;
+}
+.coffee-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.coffee {
+  width: 30%;
+  margin: 15px 0;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 10px 30px 0px rgb(182 136 52 / 20%);
+}
+.coffee-heading h2:last-child {
+  color: #b68834;
+}
+::selection {
+  background-color: #b68834;
+  color: white;
+}
+.menu {
+  background-image: url("https://preview.colorlib.com/theme/coffee/img/menu-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 50px 0;
+}
+.prices {
+  margin-top: 25px;
+}
+.prices .wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+[class$="heading"] {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.left {
+  width: 35%;
+}
+.right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gallery img {
+  width: 100%;
+}
+.right-down img {
+  width: 48%;
+}
+.left img {
+  height: 320px;
+}
+.right-down {
+  display: flex;
+  justify-content: space-between;
+}
+.right-up img {
+  height: 400px;
+}
+.mobile-menu-icon {
+  color: white;
+  display: none;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 60px 0;
+  background-color: #b68834;
+  color: #fff;
+}
+.content {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: 280px;
+  margin-right: 280px;
+}
+.content-center {
+  text-align: center;
+}
+.content-center p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+.content-left {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.content-right {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.title-left {
+  margin: 20px 0;
+}
+.title-left h4 {
+  font-size: 18px;
+}
+.title-right {
+  font-size: 18px;
+}
+.title-right {
+  margin: 20px 0;
+}
+.content-left p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.content-right p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.blog-area {
+  padding: 120px;
+}
+.content1-body {
+  display: flex;
+  justify-content: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.container1 {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.menu-content {
+  padding-bottom: 60px;
+  text-align: center;
+}
+.text-center h1 {
+  font-size: 32px;
+  text-align: center;
+}
+.text-center p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.post-tags li {
+  font-size: 12px;
+  margin: 20px 0px;
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  padding: 8px 20px;
+  transition: all 0.3s ease 0s;
+}
+.post-tags li:hover {
+  background-color: #b68834;
+}
+.post-tags li a:hover {
+  color: white;
+}
+.post-tags li a {
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+#text1 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+  outline: none;
+  text-decoration: none;
+}
+#text2 {
+  color: #777777;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.post-date {
+  color: #222;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.footer {
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  display: flex;
+  background-image: url(https://preview.colorlib.com/theme/coffee/img/footer-bg.jpg);
+  background-size: cover;
+}
+.content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin-top: 100px;
+  padding-left: 200px;
+}
+.about {
+  justify-content: left;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.about h6 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.newsletter {
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.newsletter h6 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.follow {
+  align-items: center;
+  justify-content: right;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.follow h6 {
+  align-items: center;
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.social a {
+  padding-right: 25px;
+}
+.social a {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.follow p {
+  margin-bottom: 16px;
+}
+.social a i {
+  color: white;
+}
+.about p {
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+.holder {
+  width: 350px;
+  height: 40px;
+}
+.btn {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #b68834;
+}
